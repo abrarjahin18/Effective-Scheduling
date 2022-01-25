@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:color="#f7121111"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="#f7121111"
+        android:id="@+id/note_new">
+
+        <TextView
+            android:id="@+id/SaveNotetextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Date:"
+            android:gravity="top"
+            android:textColor="#f7121111"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/SaveNoteeditText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/SaveNoteeditText1"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:textColor="#f7121111"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/SaveNotetextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_below="@id/SaveNotetextView1"
+            android:text="Title:"
+            android:gravity="top"
+            android:textColor="#f7121111"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/SaveNoteeditText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SaveNoteeditText1"
+            android:layout_toRightOf="@id/SaveNotetextView2"
+            android:ems="10"
+            android:textColor="#f7121111"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/SaveText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SaveNotetextView2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="7dp"
+            android:textColor="#f7121111"
+
+            android:textSize="20sp"
+
+            android:text="  Write your note:"
+            />
+        <EditText
+            android:id="@+id/SaveNoteeditText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SaveNotetextView2"
+            android:layout_toRightOf="@id/SaveText1"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:textColor="#f7121111"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/notesavebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="SAVE"
+            android:textColor="#f7121111"
+            android:layout_below="@id/SaveNoteeditText3"/>
+        <Button
+            android:id="@+id/notedeletebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="180dp"
+            android:text="DELETE"
+            android:layout_toRightOf="@id/notesavebutton"
+            android:layout_below="@id/SaveNoteeditText3"
+            android:textColor="#f7121111"/>
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
